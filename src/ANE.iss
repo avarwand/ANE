@@ -1,12 +1,12 @@
 #define MyAppName "ANE"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.8"
 #define MyAppPublisher "Avarwand"
-#define MyAppURL "https://github.com/payam-avarwand/ANE"
-#define MyAppExeName "ANE 1.0 - portable.exe"
-#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- Avarwand NE\Visual\rename_filled_icon_200352.ico"
+#define MyAppURL "https://github.com/payam-avarwand/ANE/releases/tag/ane"
+#define MyAppExeName "ANE 1.8 - portable.exe"
+#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- ANE\Visual\ANE Logo 2.ico"
 #define MyVbsLauncher "ANE_Launcher.vbs"
-#define MyAppIconName "rename_filled_icon_200352.ico"
-#define MyAppFileVersion "1.0.5.20"
+#define MyAppIconName "ANE Logo 2.ico"
+#define MyAppFileVersion "1.8.65.3"
 
 [Setup]
 AppId={{ANE.com.yahoo@Avar_Payam}
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.0 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.8 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib"; Flags: ignoreversion
 
 
@@ -78,11 +78,11 @@ begin
     SaveStringToFile(VbsPath, VbsContent, False);
 
     // make the script hide and read-only
-    Exec('cmd.exe', '/C attrib +h +r +s "' + ExpandConstant('{app}\lib\{#MyAppExeName}') + '"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
-    // Protect all files in the lib folder
-    Exec('cmd.exe', '/C attrib +h +r +s "' + ExpandConstant('{app}\lib\*.*') + '" /S', '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
+    Exec('cmd.exe', '/C attrib +h +r "' + ExpandConstant('{app}\lib\{#MyAppExeName}') + '"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
+
+
     // Protect the lib folder itself
-    Exec('cmd.exe', '/C attrib +h +r +s "' + ExpandConstant('{app}\lib') + '"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
+    Exec('cmd.exe', '/C attrib +h "' + ExpandConstant('{app}\lib') + '"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
 
     // Check if VBS file was created
     if not FileExists(VbsPath) then
