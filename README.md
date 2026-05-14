@@ -95,15 +95,15 @@ By installing or using this software, you agree to:
 
 ---
 
-**Developed by Payam Avarwand**
+**Developed by Avarwand Team**
 **Initial Release: December 2025**
 
 ---
 
 ## Contact
 
-**Payam Avarwand**
-📧 [payam_avar@yahoo.com](mailto:payam_avar@yahoo.com)
+**Avarwand Support Team**
+📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
 
 © 2025 Avarwand. All rights reserved.
 
