@@ -1,4 +1,4 @@
-# Avarwand NE (Avarwand Name Editor)
+# Avarwand Name Editor (ANE)
 A **powerful, modern PowerShell-based GUI tool** for **batch editing file and folder names** with precision, speed, and safety.
 
 No command line. No risk. Full control.
