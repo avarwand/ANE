@@ -1,7 +1,7 @@
 #define MyAppName "ANE"
 #define MyAppVersion "1.8"
 #define MyAppPublisher "Avarwand"
-#define MyAppURL "https://github.com/payam-avarwand/ANE/releases/tag/ane"
+#define MyAppURL "https://github.com/avarwand/ANE/releases/tag/ane"
 #define MyAppExeName "ANE 1.8 - portable.exe"
 #define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- ANE\Visual\ANE Logo 2.ico"
 #define MyVbsLauncher "ANE_Launcher.vbs"
