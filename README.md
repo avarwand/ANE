@@ -1,7 +1,14 @@
 # Avarwand Name Editor (ANE)
-A **powerful, modern PowerShell-based GUI tool** for **batch editing file and folder names** with precision, speed, and safety.
+A **powerful, modern PowerShell-based GUI tool** for **batch editing file and folder names** — and, since v1.9, for **collecting, copying and moving files** across whole folder trees — with precision, speed, and safety.
 
 No command line. No risk. Full control.
+
+---
+
+## What's New in v1.9
+- **Selection File Edit** – a new toolbar window that collects files from an entire folder tree and copies or moves them into one destination
+- **Find in results** bar in the Live Search window – filter the found items live by name, type, or format
+- Cleaner **PREVIEW** button label (it still previews the first 5 affected items)
 
 ---
 
@@ -12,10 +19,46 @@ No command line. No risk. Full control.
 - **Remove specific words or characters** from names  
 - **Match by keyword or symbol** (start, end, or anywhere in name)  
 - **Preview-safe logic** – no blind renaming  
+- **Collect, copy or move files** from all subfolders into one place *(Selection File Edit)*  
+- **Standalone file search** with live result filtering *(Live Search)*  
 - **Multithreaded operations** for high performance  
 - **Dark-mode GUI** with clean layout  
 - **Fully GUI-based** – no PowerShell knowledge required  
 - **Works on large directories** with hundreds or thousands of items  
+
+---
+
+## Selection File Edit *(new in v1.9)*
+
+Bring together files that are scattered across many subfolders:
+
+- **Copy or Move** files from a parent folder and all of its subfolders into one destination
+- **Three transfer modes**:
+  - *Files only* – all files placed flat, next to each other
+  - *Folders only* – recreate just the folder structure, without files
+  - *Both* – files **and** folders, keeping the structure
+- **Level control**: `0` = ALL levels down to the deepest subfolder, `1` = only items directly in the source folder, `2` = plus its direct subfolders, and so on
+- **Filter by word** – only items containing the word in their name are processed
+- **Name-conflict list** shown *before* anything happens: see exactly which names already exist in the destination or collide with each other, then choose **automatic rename** (`file_1`, `file_2`, …), **skip**, or **overwrite**
+- Optional cleanup: after a Move, delete the subfolders that became empty
+- **SCAN** preview (item count and total size), **Show Conflicts**, progress bar, detailed log, **CLEAR**, and a safe **STOP** button
+- Modern Explorer-style folder picker where paths can simply be **pasted**
+
+---
+
+## Live Search
+
+A standalone search window for finding files and folders fast:
+
+- Search any folder for **files, folders, or both**
+- Subfolder scope: root only, 1–5 levels, or unlimited
+- Case-sensitive or case-insensitive matching
+- **Background search** with progress bar – the window never freezes
+- Results grid with number, name, type, and full path
+- **Find in results** *(new in v1.9)*: type a word to filter the found items live by name, type, or format – matches highlighted, the rest dimmed, with a live counter
+- Double-click a result to open it in Explorer; right-click to copy the path
+- **Copy to**, **Move to**, or **Delete** selected results (deletion goes to the **Recycle Bin**)
+- Export search results to CSV
 
 ---
 
@@ -45,13 +88,19 @@ No external dependencies required.
 7. Click **Start**
 8. Watch the progress → **Done!**
 
+Also available from the toolbar:
+
+- **LIVE SEARCH** – open the standalone search window
+- **SELECTION FILE EDIT** – collect (copy/move) files from a folder tree into one destination
+
 ---
 
 ## Safety Notes
 
-* The tool only renames existing items — **no deletion**
-* Original file contents are never modified
-* Naming conflicts are handled safely
+* Renaming never deletes anything – original file contents are never modified
+* **Every bulk action asks for confirmation first** (rename, copy, move, delete)
+* Selection File Edit lists all **name conflicts before it runs** and handles them the way you choose (rename / skip / overwrite); a **STOP** button cancels safely at any time
+* Deleting from Live Search results sends items to the **Recycle Bin**, not into nothing
 * Designed to minimize accidental changes
 
 ---
@@ -60,6 +109,8 @@ No external dependencies required.
 
 * Cleaning downloaded files
 * Normalizing media libraries
+* **Collecting files scattered over many subfolders into one folder**
+* **Flattening deep folder structures**, or mirroring a structure without its files
 * Preparing files for backup or archiving
 * Bulk renaming technical or log files
 * IT administration and automation tasks
@@ -97,6 +148,7 @@ By installing or using this software, you agree to:
 
 **Developed by Avarwand Team**
 **Initial Release: December 2025**
+**Latest Version: August 2026**
 
 ---
 
@@ -104,7 +156,8 @@ By installing or using this software, you agree to:
 
 **Avarwand Support Team**
 📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
+🌐 [github.com/avarwand](https://github.com/avarwand/)
 
-© 2025 Avarwand. All rights reserved.
+© 2025–2026 Avarwand. All rights reserved.
 
 ---
