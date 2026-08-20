@@ -7,6 +7,7 @@
 #define MyVbsLauncher "ANE_Launcher.vbs"
 #define MyAppIconName "ANE Logo 2.ico"
 #define MyAppFileVersion "1.9.0.43"
+#define MyLicenseFile "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.9 - portable\ANE LICENSE.txt"
 
 [Setup]
 AppId={{ANE.com.yahoo@Avar_Payam}
@@ -24,6 +25,7 @@ UninstallDisplayIcon={app}\lib\{#MyAppIconName}
 OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer"
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
 SetupIconFile={#MyAppIcon}
+LicenseFile={#MyLicenseFile}
 SolidCompression=yes
 WizardStyle=modern
 PrivilegesRequiredOverridesAllowed=dialog
@@ -39,7 +41,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.9 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.9 - portable\ANE 1.9 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib"; Flags: ignoreversion
 
 
@@ -110,6 +112,3 @@ begin
     end;
   end;
 end;
-
-
-

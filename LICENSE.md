@@ -49,6 +49,7 @@ Except as expressly permitted in this Agreement, You will not, and will not perm
 ### 4. Ownership
 
 All rights, title, and interest in and to the Software, including all intellectual property rights, are and shall remain the exclusive property of the Author. All rights not expressly granted to You in this Agreement are reserved by the Author.
+The ANE icon and branding elements are original creations of Avarwand.
 
 ---
 
@@ -116,10 +117,8 @@ This Agreement constitutes the entire agreement between You and the Author with 
 
 ---
 
+
 **© 2025–2026 Avarwand. All rights reserved.**
-
-The ANE icon and branding elements are original creations of Avarwand.
-
 
 Contact: [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
 
