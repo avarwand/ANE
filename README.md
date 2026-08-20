@@ -142,7 +142,7 @@ And you may not:
 * Reverse engineer, decompile, or modify it (except to the limited extent permitted by applicable law)
 * Claim it as your own work, or remove its copyright and branding notices
 
-ANE is provided **"as is"**, without warranty of any kind, please keep backups of important data.
+ANE is provided **"as is"**, without warranty of any kind.
 
 *This summary is for convenience only. The legally binding terms are in the [LICENSE](LICENSE.md) file included with every release and in this repository.*
 

@@ -3,9 +3,9 @@
 ## ANE (Avarwand Name Editor)
 
 
-This End User License Agreement (the "Agreement") is a legal agreement between you — either an individual or a legal entity ("You") — and **Avarwand** (independent software developer, the "Author")) for the software product **"Avarwand Name Editor"** ("ANE" or the "Software"), including its executable files and any accompanying documentation.
+This End User License Agreement (the "Agreement") is a legal agreement between you, either an individual or a legal entity ("You"), and **Avarwand** (independent software developer, the "Author")) for the software product **"Avarwand Name Editor"** ("ANE" or the "Software"), including its executable files and any accompanying documentation.
 
-The Software is a **freeware** tool designed to batch rename files and folders. It is distributed in compiled executable (EXE) form only — as an installer and as a portable version. The source code is not published.
+The Software is a **freeware** tool designed to batch rename files and folders. It is distributed in compiled executable (EXE) form only, as an installer and as a portable version. The source code is not published.
 
 **By installing, copying, or otherwise using the Software, You agree to be bound by the terms of this Agreement. If You do not agree to these terms, do not install or use the Software.**
 
@@ -76,7 +76,7 @@ The Software runs locally on Your device. It does not collect, store, or transmi
 
 To the maximum extent permitted by applicable law, the Software is provided **"AS IS"**, without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. The Author does not warrant that the Software will be error-free or uninterrupted.
 
-You use the Software at Your own risk. In particular, batch renaming carries an inherent risk of data loss or misplacement — please keep backups of important data.
+You use the Software at Your own risk. In particular, batch renaming carries an inherent risk of data loss or misplacement, please keep backups of important data.
 
 ---
 
