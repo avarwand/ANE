@@ -148,7 +148,7 @@ ANE is provided **"as is"**, without warranty of any kind.
 
 ---
 
-**Developed by Avarwand**  
+**Developed by Avarwand Software**  
 **Latest Version: August 2026**
 **Initial Release: December 2025**  
 
