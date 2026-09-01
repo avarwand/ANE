@@ -8,7 +8,7 @@
 
 A **powerful, modern GUI tool** for **batch editing file and folder names**, and for **collecting, copying and moving files and folders** across whole folder trees, with precision, speed, and safety.
 
-No command line . No risk . Full control
+> _No command line | No risk | Full control_
 
 ---
 
