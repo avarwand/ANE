@@ -1,6 +1,6 @@
 <div align="center">
 
-# Avarwand Name Editor (ANE) 1.9.0
+# Avarwand Name Editor 1.9.0
 
 [![WinGet Package](https://img.shields.io/winget/v/Avarwand.ANE?style=for-the-badge&logo=windows&logoColor=white&label=WINGET&labelColor=1F1F1F&color=0078D4)](https://winstall.app/apps/Avarwand.ANE)
 
@@ -89,12 +89,10 @@ No external dependencies required.
 
 ## How to Use
 
-> **Fastest way to install (ANE 1.8):
+> Fastest way to install (ANE 1.8):
 ```powershell
 winget install Avarwand.ANE
 ```
-see the badge at the top for the current published version.
-
 or
 1. Download the [desired Version here...](https://github.com/avarwand/ANE/releases/tag/ane)
 2. Unzip it > Install it (_for the installer version_)
