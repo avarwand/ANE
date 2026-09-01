@@ -1,6 +1,6 @@
 <div align="center">
 
-# Avarwand Name Editor (ANE)
+# Avarwand Name Editor (ANE) 1.9.0
 
 [![WinGet Package](https://img.shields.io/winget/v/Avarwand.ANE?style=for-the-badge&logo=windows&logoColor=white&label=WINGET&labelColor=1F1F1F&color=0078D4)](https://winstall.app/apps/Avarwand.ANE)
 
@@ -16,7 +16,8 @@ No command line . No risk . Full control
 
 ---
 
-## What's New in v1.9
+## What's New in v1.9.0
+
 - **Selection File Edit**: A new toolbar window that collects files from an entire folder tree and copies or moves them into one destination
 - **Find in results** bar in the Live Search window: Filter the found items live by name, type, or format
 - Cleaner **PREVIEW** button label (it still previews the first 5 affected items)
@@ -74,6 +75,7 @@ A standalone search window for finding files and folders fast:
 ---
 
 ## Supported Operations
+
 - Files only  
 - Folders only  
 - Files **and** folders together  
@@ -82,6 +84,7 @@ A standalone search window for finding files and folders fast:
 ---
 
 ## System Requirements
+
 - **OS**: Windows 10 / Windows 11  
 
 No external dependencies required.
@@ -90,9 +93,9 @@ No external dependencies required.
 
 ## How to Use
 
-> **Fastest way to install:** `winget install Avarwand.ANE` — see the badge at the top for the current published version.
+> **Fastest way to install:** `winget install Avarwand.ANE` | see the badge at the top for the current published version.
 
-1. Download the desired Version
+1. Download the [desired Version here...](https://github.com/avarwand/ANE/releases/tag/ane)
 2. Unzip it > Install it (_for the installer version_)
 3. Select a **target folder**
 4. Choose the desired **operation**
