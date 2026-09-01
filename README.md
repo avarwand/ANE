@@ -4,10 +4,6 @@
 
 [![WinGet Package](https://img.shields.io/winget/v/Avarwand.ANE?style=for-the-badge&logo=windows&logoColor=white&label=WINGET&labelColor=1F1F1F&color=0078D4)](https://winstall.app/apps/Avarwand.ANE)
 
-```powershell
-winget install Avarwand.ANE
-```
-
 </div>
 
 A **powerful, modern GUI tool** for **batch editing file and folder names**, and for **collecting, copying and moving files and folders** across whole folder trees, with precision, speed, and safety.
@@ -94,7 +90,10 @@ No external dependencies required.
 ## How to Use
 
 > **Fastest way to install:** `winget install Avarwand.ANE` | see the badge at the top for the current published version.
-
+```powershell
+winget install Avarwand.ANE
+```
+or
 1. Download the [desired Version here...](https://github.com/avarwand/ANE/releases/tag/ane)
 2. Unzip it > Install it (_for the installer version_)
 3. Select a **target folder**
