@@ -89,7 +89,7 @@ No external dependencies required.
 
 ## How to Use
 
-> Fastest way to install (ANE 1.8):
+> Fastest way to install:
 ```powershell
 winget install Avarwand.ANE
 ```
