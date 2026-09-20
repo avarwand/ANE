@@ -1,13 +1,13 @@
 #define MyAppName "ANE"
-#define MyAppVersion "1.9"
+#define MyAppVersion "2.1"
 #define MyAppPublisher "Avarwand"
 #define MyAppURL "https://github.com/avarwand/ANE/releases/tag/ane"
-#define MyAppExeName "ANE 1.9 - portable.exe"
+#define MyAppExeName "ANE 2.1 - portable.exe"
 #define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- ANE\Visual\ANE Logo 2.ico"
 #define MyVbsLauncher "ANE_Launcher.vbs"
 #define MyAppIconName "ANE Logo 2.ico"
-#define MyAppFileVersion "1.9.0.43"
-#define MyLicenseFile "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.9 - portable\ANE LICENSE.txt"
+#define MyAppFileVersion "2.1.28.1"
+#define MyLicenseFile "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 2.1 - portable\ANE LICENSE.txt"
 
 [Setup]
 AppId={{ANE.com.yahoo@Avar_Payam}
@@ -41,7 +41,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.9 - portable\ANE 1.9 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 2.1 - portable\ANE 2.1 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib"; Flags: ignoreversion
 
 
@@ -112,3 +112,4 @@ begin
     end;
   end;
 end;
+
