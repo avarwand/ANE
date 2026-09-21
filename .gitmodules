@@ -1,0 +1,3 @@
+[submodule "Wiki_ANE"]
+	path = Wiki_ANE
+	url = https://github.com/avarwand/ANE.wiki.git
