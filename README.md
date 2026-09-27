@@ -1,6 +1,6 @@
 <div align="center">
 
-# Avarwand Name Editor 2.1
+# A Name Editor 2.1.28.1
 
 [![WinGet Package](https://img.shields.io/winget/v/Avarwand.ANE?style=for-the-badge&logo=windows&logoColor=white&label=WINGET&labelColor=1F1F1F&color=0078D4)](https://winstall.app/apps/Avarwand.ANE)
 
