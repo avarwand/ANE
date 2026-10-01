@@ -8,7 +8,7 @@ Avarwand
 
 </div>
 
-**ANE** is a modern Windows GUI tool for managing and organizing files and folders quickly and efficiently.
+**ANE** is a modern Windows GUI tool for quickly and efficiently managing and organising files and folders, as well as creating organised folders and dummy files of the desired size and format.
 
 It provides a simple interface for performing common bulk file operations without using the command line.
 
