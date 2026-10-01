@@ -1,207 +1,67 @@
 <div align="center">
-
-# A Name Editor 2.1.28.1
+Avarwand
+# Name Editor
 
 [![WinGet Package](https://img.shields.io/winget/v/Avarwand.ANE?style=for-the-badge&logo=windows&logoColor=white&label=WINGET&labelColor=1F1F1F&color=0078D4)](https://winstall.app/apps/Avarwand.ANE)
 
 </div>
 
-A **powerful, modern GUI tool** for **batch editing file and folder names**, for **collecting, copying and moving files and folders** across whole folder trees, and for **generating dummy files and folders** in bulk, with precision, speed, and safety.
+**ANE** is a modern Windows GUI tool for managing and organizing files and folders quickly and efficiently.
 
-> _No command line | No risk | Full control_
+It provides a simple interface for performing common bulk file operations without using the command line.
 
----
+## Features
 
-## What's New in v2.1
-
-- **Batch Data Generator**: A new toolbar window that creates dummy files of any size, or empty folders, in bulk, with name patterns, date sequences, sparse or fully-allocated files, and a mirror mode
-- **Live Search**: New **Only hidden files** filter, and the **Delete key** now really deletes the selected items (to the Recycle Bin)
-- **Live Search**: A grey hint in the search box, type a point ( `.` ) to list everything
-- **Selection File Edit**: The **Levels** field now starts at `1` (current folder only) by default
-- Dark scrollbars, dark tab headers, and a focus frame on the tool windows
-
----
-
-## Main Features
-- **Batch rename files and folders** in one operation  
-- **Add text to the beginning** of names (based on match rules)  
-- **Add text to the end** of names (based on match rules)  
-- **Remove specific words or characters** from names  
-- **Match by keyword or symbol** (start, end, or anywhere in name)  
-- **Preview-safe logic**: no blind renaming  
-- **Collect, copy or move files** from all subfolders into one place *(Selection File Edit)*  
-- **Generate dummy files and folders** in bulk *(Batch Data Generator)*  
-- **Standalone file search** with live result filtering *(Live Search)*  
-- **Multithreaded operations** for high performance  
-- **Dark-mode GUI** with clean layout  
-- **Fully GUI-based**: no CLI knowledge required  
-- **Works on large directories** with hundreds or thousands of items  
-
----
-
-## Batch Data Generator *(new in v2.1)*
-
-Create files and folders in bulk, for testing, placeholders, benchmarks, or filling a template structure:
-
-- **Two output types**: dummy **files** or empty **folders**
-- **Size** (files): a **fixed** size, or a **random** size between a minimum and a maximum, in KB, MB, GB or TB
-- **Allocation type**:
-  - *Sparse*: logical files with minimal disk usage (instant, almost no space)
-  - *Fully Allocated*: physical files that really use the space
-- **Name and format**:
-  - *Customized name*: build names from patterns like `{n}`, `{n:000}`, `{date:dd.MM.yyyy}`, `{time:HH-mm}`, `{guid:8}`, `{rand:45}`, or `{word:red|blue|green}`
-  - *Mirror of content*: place a twin next to every existing file, keeping or changing its format
-- **Presets** with a live preview of the first name, plus hour presets (`01-00` … `24-00`)
-- **Date sequences**: one item per date across a start-to-end range, with a step in days
-- **Hidden** option, **PREVIEW** with total size, progress bar, detailed log, **CLEAR**, and a safe **STOP** button
-- **Free-space aware**: warns before a run that would not fit, and stops cleanly if the drive fills up
-
----
-
-## Selection File Edit *(new in v1.9)*
-
-Bring together files that are scattered across many subfolders:
-
-- **Copy or Move** files from a parent folder and all of its subfolders into one destination
-- **Three transfer modes**:
-  - *Files only*: All files placed flat, next to each other
-  - *Folders only* – recreate just the folder structure, without files
-  - *Both*: Files **and** folders, keeping the structure
-- **Level control**: `1` = only items directly in the source folder *(default)*, `0` = ALL levels down to the deepest subfolder, `2` = plus its direct subfolders, and so on
-- **Filter by word**: Only items containing the word in their name are processed
-- **Name-conflict list** shown *before* anything happens: see exactly which names already exist in the destination or collide with each other, then choose **automatic rename** (`file_1`, `file_2`, …), **skip**, or **overwrite**
-- Optional cleanup: after a Move, delete the subfolders that became empty
-- **SCAN** preview (item count and total size), **Show Conflicts**, progress bar, detailed log, **CLEAR**, and a safe **STOP** button
-- Modern Explorer-style folder picker where paths can simply be **pasted**
-
----
-
-## Live Search
-
-A standalone search window for finding files and folders fast:
-
-- Search any folder for **files, folders, or both**
-- A grey hint in the search box *(new in v2.1)*: type a point ( `.` ) to list everything
-- Subfolder scope: root only, 1–5 levels, or unlimited
-- Case-sensitive or case-insensitive matching
-- **Only hidden files** filter *(new in v2.1)*: restrict the search to hidden items
-- **Background search** with progress bar: the window never freezes
-- Results grid with number, name, type, and full path
-- **Find in results** *(new in v1.9)*: type a word to filter the found items live by name, type, or format, matches highlighted, the rest dimmed, with a live counter
-- Double-click a result to open it in Explorer; right-click to copy the path
-- **Copy to**, **Move to**, or **Delete** selected results, via the buttons or the **Delete key** *(new in v2.1)*, deletion goes to the **Recycle Bin**
-- Export search results to CSV
-
----
-
-## Supported Operations
-
-- Files only  
-- Folders only  
-- Files **and** folders together  
-- Recursive directory processing (optional)  
-
----
+* **Batch Rename** — Rename multiple files and folders at once.
+* **Live Search** — Quickly find files and folders across directories.
+* **Selection File Edit** — Collect, copy, or move files and folders from multiple subfolders.
+* **Batch Data Generator** — Create dummy files and folders in bulk for testing and other purposes.
+* **Flexible Filtering** — Select items based on names, keywords, and other conditions.
+* **Preview & Confirmation** — Review operations before applying changes.
+* **Multithreaded Processing** — Designed to handle large directories efficiently.
+* **Modern GUI** — Clean, dark-mode interface with no command-line knowledge required.
 
 ## System Requirements
 
-- **OS**: Windows 10 / Windows 11  
+* Windows 10 or Windows 11
+* No external dependencies required
 
-No external dependencies required.
+## Installation
 
----
+The easiest way to install ANE is with WinGet:
 
-## How to Use
-
-> Fastest way to install:
 ```powershell
 winget install Avarwand.ANE
 ```
-or
-1. Download the [desired Version here...](https://github.com/avarwand/ANE/releases/tag/ane)
-2. Unzip it > Install it (_for the installer version_)
-3. Select a **target folder**
-4. Choose the desired **operation**
-5. Define the **match condition** (word or symbol)
-6. Choose **files, folders, or both**
-7. Click **Start**
-8. Watch the progress → **Done!**
 
-Also available from the toolbar:
-
-- **LIVE SEARCH**: Open the standalone search window
-- **SELECTION FILE EDIT**: Collect (copy/move) files from a folder tree into one destination
-- **BATCH DATA GENERATOR**: Create dummy files or folders in bulk
-
----
-
-## Safety Notes
-
-* Renaming never deletes anything: Original file contents are never modified
-* **Every bulk action asks for confirmation first** (rename, copy, move, delete, generate)
-* Selection File Edit lists all **name conflicts before it runs** and handles them the way you choose (rename / skip / overwrite); a **STOP** button cancels safely at any time
-* Batch Data Generator checks **free disk space** before a fully-allocated run and stops cleanly if a drive fills up
-* Deleting from Live Search results sends items to the **Recycle Bin**, not into nothing
-* Designed to minimize accidental changes
-
----
+Alternatively, download a release from the [GitHub Releases](https://github.com/avarwand/ANE/releases) page.
 
 ## Use Cases
 
-* Cleaning downloaded files
-* Normalizing media libraries
-* **Collecting files scattered over many subfolders into one folder**
-* **Flattening deep folder structures**, or mirroring a structure without its files
-* **Generating test files and folders** for benchmarks, placeholders, or template structures
-* Preparing files for backup or archiving
-* Bulk renaming technical or log files
-* IT administration and automation tasks
+ANE can be useful for:
 
----
+* Organizing large collections of files
+* Bulk renaming
+* Managing files across complex folder structures
+* Finding and processing files
+* Preparing files for backups or archiving
+* Creating test data and folder structures
+* General IT and file-management tasks
 
-## Contributing
+## Freeware
 
-This project is released as **freeware**.
+ANE is released as **freeware** by **Avarwand Software**.
 
-While primarily maintained by the author, suggestions, bug reports, and improvement ideas are welcome via email.
+You may use ANE free of charge for personal and commercial purposes. Redistribution is permitted under the terms of the included EULA.
 
-Pull requests are currently not accepted.
-
----
-
-## License
-
-**ANE is freeware**, released under a custom End User License Agreement (EULA) by **Avarwand**. *(Freeware describes the price, free of charge; the EULA is the agreement that sets the terms below.)*
-
-In short, you are free to:
-
-* **Use** ANE free of charge, for both personal and commercial purposes
-* **Share** ANE with anyone, redistributing, hosting, mirroring, and promoting it is welcome, as long as it is passed on **complete and unmodified**, **free of charge**, and with clear credit to **Avarwand**
-
-And you may not:
-
-* Sell ANE, monetize access to it, or lock it behind paywalls, donations, surveys, registration walls, or paid bundles
-* Reverse engineer, decompile, or modify it (except to the limited extent permitted by applicable law)
-* Claim it as your own work, or remove its copyright and branding notices
-
-ANE is provided **"as is"**, without warranty of any kind.
-
-*This summary is for convenience only. The legally binding terms are in the [LICENSE](LICENSE.md) file included with every release and in this repository.*
-
----
-
-**Developed by Avarwand Software**  
-**Latest Update: September 2026**
-**Initial Release: December 2025**  
-
----
+For complete licensing terms, see [LICENSE.md](LICENSE.md).
 
 ## Contact
 
-**Avarwand Support**  
-📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)  
-🌐 [github.com/avarwand](https://github.com/avarwand/)
-
-© 2025–2026 Avarwand. All rights reserved.
+**Avarwand Software**
+📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
+🌐 https://github.com/avarwand/
 
 ---
+
+© 2025–2026 Avarwand. All rights reserved.
