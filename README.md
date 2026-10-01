@@ -14,14 +14,14 @@ It provides a simple interface for performing common bulk file operations withou
 
 ## Features
 
-* **Batch Rename** — Rename multiple files and folders at once.
-* **Live Search** — Quickly find files and folders across directories.
-* **Selection File Edit** — Collect, copy, or move files and folders from multiple subfolders.
-* **Batch Data Generator** — Create dummy files and folders in bulk for testing and other purposes.
-* **Flexible Filtering** — Select items based on names, keywords, and other conditions.
-* **Preview & Confirmation** — Review operations before applying changes.
-* **Multithreaded Processing** — Designed to handle large directories efficiently.
-* **Modern GUI** — Clean, dark-mode interface with no command-line knowledge required.
+* **Batch Rename**: Rename multiple files and folders at once.
+* **Live Search**: Quickly find files and folders across directories.
+* **Selection File Edit**: Collect, copy, or move files and folders from multiple subfolders.
+* **Batch Data Generator**: Create dummy files and folders in bulk for testing and other purposes.
+* **Flexible Filtering**: Select items based on names, keywords, and other conditions.
+* **Preview & Confirmation**: Review operations before applying changes.
+* **Multithreaded Processing**: Designed to handle large directories efficiently.
+* **Modern GUI**: Clean, dark-mode interface with no command-line knowledge required.
 
 ## System Requirements
 
@@ -61,7 +61,9 @@ For complete licensing terms, see [LICENSE.md](LICENSE.md).
 ## Contact
 
 **Avarwand Software**
+
 📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
+
 🌐 https://github.com/avarwand/
 
 ---
