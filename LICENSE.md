@@ -22,7 +22,7 @@ The Software is licensed, not sold.
 ### 2. Free Redistribution and Promotion
 
 The Author welcomes the free sharing of the Software. Any person, organization, or platform may redistribute, host, mirror, advertise, and promote the Software **free of charge**, provided that all of the following conditions are met:
- 
+
 1. **Unmodified and complete.** The Software is distributed in its original, complete, and unmodified form, including this Agreement and all copyright and proprietary notices.
 2. **No monetization.** No fee, payment, donation, or other compensation may be charged or required for the Software, or for access to, downloading, or redistribution of it, whether directly or indirectly (for example, through a paid membership, package, or subscription that includes the Software). The Software may not be sold, rented, leased, sublicensed for compensation, offered as a paid download, used as a purchase incentive or reward, or bundled with or tied to any paid product, service, or subscription.
 3. **Free and unrestricted access.** Where the Software is made available to the public, access to it may not be conditioned on any barrier or obligation, including mandatory registration or account creation, completion of surveys or third-party offers, provision of payment details, "content lockers" or similar unlock mechanisms, or artificial waiting periods, speed limits, or download limits designed to promote a paid service. The Software must remain directly and freely accessible to all end users.
