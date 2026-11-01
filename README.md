@@ -58,16 +58,19 @@ You may use ANE free of charge for personal and commercial purposes. Redistribut
 
 For complete licensing terms, see [LICENSE.md](LICENSE.md).
 
-## Contact
+---
+
+## About
+
+**Developed by Avarwand Software**
+
+**Initial Release:** December 2025 <br> 
+**Latest Update:** November 2026 (v2.1.30.1)
 
 <img width="3300" height="1056" alt="ASm_statistics_Versions of ANE_2026-11-01" src="https://github.com/user-attachments/assets/5718a19f-6996-46bc-94b8-098dc85633da" />
 
-**Avarwand Software**
 
-📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
-
-🌐 https://github.com/avarwand/
-
----
+📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)  
+🌐 [github.com/avarwand](https://github.com/avarwand/)
 
 © 2025–2026 Avarwand. All rights reserved.
