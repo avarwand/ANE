@@ -60,6 +60,8 @@ For complete licensing terms, see [LICENSE.md](LICENSE.md).
 
 ## Contact
 
+<img width="3300" height="1056" alt="ASm_statistics_Versions of ANE_2026-11-01" src="https://github.com/user-attachments/assets/5718a19f-6996-46bc-94b8-098dc85633da" />
+
 **Avarwand Software**
 
 📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
